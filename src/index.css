@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login-box {
+  @apply bg-white rounded-2xl shadow-xl p-8 w-full max-w-md transition duration-300 ease-in-out;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.login-box:hover {
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.12);
+}
+
+.login-bg {
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb); /* subtle gray gradient */
+}
